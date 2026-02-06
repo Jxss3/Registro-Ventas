@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+    <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="styles.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Registro de Ventas</title>
+        </head>
+
+    <body>
+        <section id="header">
+            <button id="btn-menu">☰</button>
+            <h1 class="title">Registro</h1>
+            <button id="btn-user"><img src="src/user-icon.png" alt="Usuario"></button>
+        </section>
+
+        <div id="fecha">
+            <p>Resumen de Hoy</p>
+            <input type="date" id="btn-fecha">
+        </div>
+    
+        <div id="Contenedores">
+            <section id="Ventas">
+                <h2 class="texto-ventas">Ventas</h2>
+                <p id="mostrar-ventas">$0</p>
+            </section>
+
+            <section id="Gastos">
+                <h2 class="texto-gastos">Gastos</h2>
+                <p id="mostrar-gastos">$0</p>
+            </section>
+        
+            <section id="Ganancias">
+                <h2 class="texto-ganancias">Ganancias</h2>
+                <p id="mostrar-ganancias">$0</p>
+            </section>      
+        </div>
+        
+        <div id="agregar-datos">
+            <button class="Agregar-Ventas" id="btnVentas">Agregar Ventas</button>
+
+            <button class="Agregar-Gastos" id="btnGastos">Agregar Gastos</button>
+
+                
+        </div>
+        
+        <div>
+            <button class="Borrar-Datos" id="btnBorrar">Borrar Datos</button>
+        </div>
+    <script src="script.js"></script>
+    </body>
+</html>
